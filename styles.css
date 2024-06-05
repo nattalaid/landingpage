@@ -1,0 +1,113 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: linear-gradient(90deg, #4b3621 0%, #8b5e34 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 4em;
+    margin-bottom: 0.2em;
+}
+
+#header p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+#main {
+    background: white;
+    padding: 5rem 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 2rem 0;
+}
+
+#main h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#main p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 2em;
+}
+
+#main img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+#main .btn {
+    font-size: 1.2em;
+    padding: 0.75em 2em;
+    border-radius: 50px;
+    transition: background 0.3s ease;
+}
+
+#main .btn:hover {
+    background: #6a3e2e;
+}
+
+#features {
+    background: #f0e5d6;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    color: #4b3621;
+}
+
+#features .text-brown {
+    color: #8b5e34;
+}
+
+#reviews {
+    background: #fff8f0;
+}
+
+#reviews h2 {
+    font-size: 2.5em;
+    color: #4b3621;
+}
+
+#contact {
+    background: #f0e5d6;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #4b3621;
+}
+
+#footer {
+    background: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#footer a {
+    color: #ffcc00;
+    margin: 0 0.5em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#footer a:hover {
+    color: #fff700;
+}
